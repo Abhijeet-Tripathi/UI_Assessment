@@ -1,0 +1,235 @@
+.Scroll1{
+    position: absolute;
+    width: 1024px;
+    height:138px;
+    top: 73px;
+    left: 256px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    .upperPortion{
+            width: 985px;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 20px 12px 20px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            .container{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                border-radius: 4px;
+                gap: 10px;
+                .icon{
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 8px;
+                    border: 2px solid #FFFFFF;
+                    background-color:#129E5B;
+                    box-shadow: 0px 4px 4px 0px #0000001F;
+                    span{
+                        display: block;
+                        width: 27px;
+                        height: 27px;
+                        position: relative;
+                        top: 10px;
+                        left: 11px;
+                        font-size: 34px;
+                        font-family: Montserrat;
+                        line-height: 24.38px;
+                        text-align: center;
+                        color:#FFFFFF;
+                        
+                    }
+                }
+
+                .content{
+                    display: flex;
+                    width: 926px;
+                    height: 36px;
+                    gap: 6px;
+                    .left{
+                        display: flex;
+                        flex-direction: column;
+                        width: 684px;
+                        height: 36px;
+                        gap: 4px;
+                        .up{
+                            width: 684px;
+                            height: 17px;
+                            gap: 8px;
+                            .upTextContainer{
+                                width: 684px;
+                                height: 17px;
+                                gap: 4px;
+                                span{
+                                    width: 328px;
+                                    height: 17px;
+                                    font-family: Montserrat;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 17.07px;
+                                    color: #2F2F2F;
+                                }
+                            }
+                        }
+                        .down{
+                            width: 286px;
+                            height: 15px;
+                            gap: 16px;
+                            .downTextContainer{
+                                width: 286px;
+                                height: 15px;
+                                gap: 6px; 
+                                span{                           
+                                    width: 286px;
+                                    height: 15px;
+                                    font-family: Montserrat;
+                                    font-weight: 500;
+                                    font-size: 12px;
+                                    line-height: 14.63px;
+                                    color:#787878;
+                                }
+                            }
+                        }
+
+                    }
+                    .right{
+                        width: 236px;
+                        height: 24px;
+                        border-radius: 6px;
+                        gap: 10px;
+                        display: flex;
+                        .mandatoryText{
+                            width: 163px;
+                            height: 15px;
+                            font-family: Montserrat;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 14.63px;
+                            color:#505050;
+                        }
+                        .offBtn{
+                            width: 44px;
+                            height: 24px;
+                            display: flex;
+                            background-color: #CACACA;
+                            border-radius: 14px;
+                            .circle{
+                                width: 20px;
+                                height: 20px;
+                                position: relative;
+                                border-radius:50%;
+                                top: 2px;
+                                left: 3px;
+                                background-color: #FFFFFF;
+                                box-shadow: 1px 1px 2px 0px #00000014;
+                            }
+                            .offText{
+                                position: relative;
+                                width: 17px;
+                                height: 10px;
+                                top: 7px;
+                                left: 4px;
+                                font-family: Montsserrat;
+                                font-weight: 700;
+                                font-size: 8px;
+                                line-height: 9.75px;
+                                background: #CACACA;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    .lowerPortion{
+            width: 1025px;
+            height: 62px;
+            padding: 4px 0px 0px 0px;
+            box-shadow: 0px 4px 24px 0px #0000001F;
+            background: #FFFFFF;
+            display: flex;
+            .stage1{
+                width: 164px;
+                height: 62px;
+                .outterContainer{
+                    width: 164px;
+                    height: 50px;
+                    border: 0px 0px 4px 0px;
+                    padding: 0px 12px 12px 12px;
+                    gap: 12px;
+                    .innerContainer{
+                        width: 140px;
+                        height: 38px;
+                        padding: 12px 0px 0px 0px;
+                        gap: 8px;
+                        .up{
+                            width: 61px;
+                            height: 15px;
+                            gap: 6px;
+                            display: flex;
+                            margin-left: 34px;
+                            .circle{
+                                margin-right: -5px;
+                                width: 6px;
+                                height: 6px;
+                                border-radius: 50%;
+                                background: #407BCA;
+                            }
+                            span{
+                                width: 49px;
+                                height: 15px;
+                                font-family: Montsserrat;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 14.63px;
+                                color: #797979;
+                                                           
+                            }
+                            .uplift{
+                                margin-top: -15px;
+                            }
+                        }
+                        .down{
+                            width: 140px;
+                            height: 15px;
+                            font-family: Montserrat;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 14.63px;
+                            text-align: center;
+                            color: #2F2F2F;
+                            
+                        }
+                        .upliftMore{
+                            margin-top: -15px;
+                        }
+                        .blueLine{
+                            width: 164px;
+                            background: #0086FF;
+                            border:2px solid#0086FF;
+                            position: relative;
+                            top: 16px;
+                            border-radius: 2px;
+                            left: -12px;
+                        }
+                    }
+                }
+            }
+            .line{
+                width: 93.67px;
+                height: 0px;
+                border: 1px solid #E6E6E6;
+                position: relative;
+                top: 16px;
+                left: -60px;
+                border-radius: 2px;
+            }
+           
+            .shiftLeft{
+                margin-left:-104px ;
+            }
+    }
+
+}

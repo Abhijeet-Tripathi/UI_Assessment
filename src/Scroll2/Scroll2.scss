@@ -1,0 +1,438 @@
+.Scroll2{
+    width: 984px;
+    height: 626px;
+    position: absolute;
+    top: 235px;
+    left: 276px;
+    gap: 16px;
+    .heading{
+        width: 984px;
+        height: 17px;
+        gap: 10px;
+        span{
+            width: 278px;
+            height: 17px;
+            font-family: Montserrat;
+            font-size: 14px;
+            line-height: 17.07px;
+            color: #505050;
+            font-weight: 600;
+        }
+    }
+    .formContainer{
+        width: 984px;
+        height: 593px;
+        border-radius: 6px;
+        gap: 24px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 24px 0px #031B280A;
+        box-shadow: 0px 4px 4px 0px #042C5114;
+        .jiraHeading{
+            width: 984px;
+            height: 51px;
+            border: 0px 0px 1px 0px;
+            gap: 12px;
+            background-color: #FFFBEE;
+            .outterContainer{
+                width: 984px;
+                height: 51px;
+                .innerContainer{
+                    width: 108px;
+                    height: 39px;
+                    border: 0px 0px 4px 0px;
+                    padding:12px 16px 12px 16px;
+                    gap: 12px;
+                    .mainContainer{
+                        width: 92px;
+                        height: 27px;
+                        gap: 8px;
+                        display: flex;
+                        .left{
+                            width: 40px;
+                            height: 17px;
+                            gap: 10px;
+                            span{
+                                width: 40px;
+                                height: 17px;
+                                font-family: Montserrat;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 17.07px;
+                                color: #2F2F2F;
+                                margin-top: 8px;
+                                display: block;
+                            }
+                        }
+                        .right{
+                            width: 36px;
+                            height: 21px;
+                            border-radius: 6px;
+                            padding: 6px 8px 6px 8px;
+                            gap: 10px;
+                            background: linear-gradient(110.84deg, #FFEED2 7.61%, #FFFEFB 97.65%);
+                            box-shadow: 4px 4px 4px 0px #FF99001F;
+                            box-shadow: -4px -4px 4px 0px #FFFFFFCC;
+                            span{
+                                width: 28px;
+                                height: 15px;
+                                font-family: Montserrat;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 14.63px;
+                                color: #FEA111;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .inputFieldContainer{
+            width: 984px;
+            height: 422px;
+            gap: 16px;
+            .upperPortion{
+                width: 984px;
+                height: 146px;
+                gap: 24px;
+                .outterContainer{
+                    width: 984px;
+                    height: 146px;
+                    gap: 16px;
+                    .up{
+                        width: 972px;
+                        height: 65px;
+                        padding: 0px 12px 0px 12px;
+                        gap: 12px;
+                        display: flex;
+                        .inputContainer{
+                            width: 474px;
+                            height: 65px;
+                            gap: 8px;
+                            display: flex;
+                            flex-direction: column;
+                            .inputNameContainer{
+                                width: 474px;
+                                height: 17px;
+                                gap: 8px;
+                                .titleContainer{
+                                    width: 113px;
+                                    height: 17px;
+                                    gap: 6px; 
+                                    span{
+                                        width: 120px;
+                                        height: 17px;
+                                        font-family: Montserrat;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 17.07px;
+                                        color:#1E1E1E;
+                                    }
+                                    .redStar{
+                                        color: #C11212;
+                                    }
+                                }
+                            }
+                            .inputValueContainer{
+                                width: 448px;
+                                height: 30px;
+                                border-radius: 4px;
+                                border: 1px solid #D8D8D8;
+                                padding:10px 12px 10px 12px ;
+                                gap: 10px;
+                                background-color: #FFFFFF;
+                                display: flex;
+                                span{
+                                    width: 420px;
+                                    height: 17px;
+                                    font-family: Montserrat;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17.07px;
+                                    color: #2F2F2F;
+                                }
+                            }
+                        }
+                        .input2{
+                            width: 474px;
+                            height: 17px;
+                            gap: 8px;
+                        }
+
+                    }
+                    .down{
+                        width: 972px;
+                        height: 65px;
+                        padding: 0px 12px 0px 12px;
+                        gap: 12px;
+
+                    }
+                }
+            }
+            .lowerPortion{
+                width: 984px;
+                height: 260px;
+                padding: 0px 12px 0px 12px;
+                gap: 10px;
+                .container{
+                    width: 960px;
+                    height: 248px;
+                    border-radius: 4px;
+                    border: 1px solid #E6E6E6;
+                    padding: 12px 0px 12px 0px;
+                    gap: 12px;
+                    background-color: #FFFFFF;
+                    .title{
+                        width: 929px;
+                        height: 17px;
+                        padding: 0px 16px 0px 16px;
+                        gap: 10px;
+                        span{
+                            display: block;
+                            width: 135px;
+                            height: 17px;
+                            font-family: Montserrat;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 17.07px;
+                            color: #2F2F2F;
+                        }
+                    }
+                    .inputs{
+                        width: 960px;
+                        height: 175px;
+                        gap: 12px;
+                        .upper{
+                            width: 960px;
+                            height: 27px;
+                            border: 1px solid #E6E6E6;
+                            background-color: #F5FAFF;
+                            display: flex;
+                            .key{
+                                width: 422px;
+                                height: 22px;
+                                padding: 5px 16px 5px 16px;
+                                gap: 10px;
+                                span{
+                                    width: 29px;
+                                    height: 17px;
+                                    font-family: Montserrat;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 17.07px;
+                                    color: #000000;
+                                }
+                            }
+                            .value{
+                                width: 398px;
+                                height: 22px;
+                                padding: 5px 16px 5px 24px;
+                                gap: 10px;
+                                span{
+                                    width: 29px;
+                                    height: 17px;
+                                    font-family: Montserrat;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 17.07px;
+                                    color: #000000;
+                                }
+                            }
+                        }
+                        .lower{
+                            width: 960px;
+                            height: 136px;
+                            gap: 8px;
+                            display: flex;
+                            flex-direction: column;
+                            .frame1{
+                                width: 929px;
+                                height: 40px;
+                                padding: 0px 16px 0px 16px;
+                                gap: 10px;
+                                margin-top: 5px;
+                                display: flex;
+                                .one{
+                                    border-radius: 4px;
+                                    border: 1px solid #D8D8D8;
+                                    width: 436px;
+                                    height: 40px;
+                                    gap: 8px;
+                                    display: flex;
+                                    .content{
+                                        width: 424px;
+                                        height: 30px;
+                                        border-radius: 4px;
+                                        border: 1px #D8D8D8;
+                                        padding: 10px 12px 10px 12px;
+                                        gap: 10px;
+                                        span{
+                                            width: 382px;
+                                            height: 17px;
+                                            font-family: Montserrat;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 17.07px;
+                                            color: #787878;
+                                        }
+                                    }
+                                    .editBtn{
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                                .two{
+                                    width: 436px;
+                                    height: 40px;
+                                    gap: 8px;
+                                }
+                                .three{
+                                    display: flex;
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 6px;
+                                    border: 1px solid #D8D8D8;
+                                    padding: 8px;
+                                    gap: 10px;
+                                    background-color: #FFFFFF;
+                                    .deleteBtn{
+                                        width: 25px;
+                                        height: 25px;
+                                        svg{
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                            .frame2{
+                                width: 944px;
+                                height: 40px;
+                                padding: 0px 16px 0px 16px;
+                                gap: 10px;
+                            }
+                            .frame3{
+                                width: 944px;
+                                height: 40px;
+                                padding: 0px 16px 0px 16px;
+                                gap: 10px;
+                            }
+                        }
+                    }
+                    .addAnother{
+                        width: 929px;
+                        height: 20px;
+                        padding: 0px 16px 0px 16px;
+                        gap: 10px;
+                        display: flex;
+                        margin-top: 25px;
+                        
+                        .btnContainer{
+                            width: 118px;
+                            height: 20px;
+                            border-radius: 6px;
+                            gap: 4px;
+                            position: relative;
+                            display: flex;
+                            left: 800px;
+                            .addSymbol{
+                                width:20px;
+                                height: 20px;
+                            }
+                            .text{
+                                display: flex;
+                                width: 94px;
+                                height: 15px;
+                                font-family: Montserrat;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 14.63px;
+                                text-align: center;
+                                color: #0086FF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .backNextBtn{
+            width: 951px;
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            padding:16px;
+            background-color: #FAFAFA;
+            .btnContainer{
+                width: 370px;
+                height: 40px;
+                gap: 10px;
+                display: flex;
+                margin-left: 578px;
+                .backBtn{
+                    width: 52px;
+                    height: 32px;
+                    border-radius: 6px;
+                    border: 1px solid #D3D3D3;
+                    padding: 4px 7px 4px 7px;
+                    gap: 6px;
+                    color: #D3D3D3;
+                    background-color: #FFFFFF;
+                    span{
+                        width: 36px;
+                        height: 15px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 14.63px;
+                        padding-left: 10px;
+                        padding-top:5px ;
+                        // margin-top: 44px;
+                    }
+                }
+                .nextBtn{
+                    width: 95px;
+                    height: 28px;
+                    border-radius: 6px;
+                    padding: 5px 8px 6px 8px;
+                    gap: 6px;
+                    color: #D3D3D3;
+                    background-color: #0086FF;
+                    p{
+                        display: flex;
+                        width: 81px;
+                        height: 15px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 14.63px;
+                        // padding-left: 10px;
+                        margin-top:5px ;
+                        color: #FFFFFF;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+                }
+                .saveBtn{
+                    width: 165px;
+                    height: 30px;
+                    border-radius: 6px;
+                    padding: 5px 6px 5px 6px;
+                    gap: 6px;
+                    background-color: #FEA111;
+                    p{
+                        display: flex;
+                        width: 137px;
+                        height: 15px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 14.63px;
+                        padding-left: 10px;
+                        margin-top:8px ;
+                        color: #FFFFFF;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+                    }
+                
+                }
+            }
+        }
+    }
+}

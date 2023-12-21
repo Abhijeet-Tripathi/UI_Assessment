@@ -1,0 +1,204 @@
+//navbar
+.navContainer{
+    display: flex;
+    width: 1208px;
+    height: 30px;
+    justify-content: space-between;
+    padding: 21px 20px 21px 52px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+}
+//navbar leftSide Logo
+.navLeft{
+    width: 205px;
+    height: 30px;
+    gap: 10px;
+
+    .imageContainer{
+        width: 155px;
+        height: 30px;
+        justify-content: space-between;
+    }
+
+    img{
+        width: 155px;
+        height: 30px;
+    }
+}
+
+//Navbar Right Side
+
+.navRight{
+   display: flex;
+   width: 1003px;
+   height: 49px;
+   justify-content: space-between;
+   
+   .leftPortion{
+        display: flex;
+        width: 586px;
+        height: 24px;
+        gap: 8px;
+        .firstText{
+            display: flex;
+            width: 142px;
+            height: 24px;
+            .imgContainer{
+                width: 24px;
+                height: 24px;
+                transform: rotate(-0deg);
+            }
+            img{
+                position: relative;
+                width: 7.78px;
+                height: 12.73px;
+                top: 5.64px;
+                left: 8.22px;
+                transform: rotate(-0deg);
+                color: #505050;
+            }
+
+            p{
+                width: 116px;
+                height: 15px;
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 14.63px;
+                color: #505050;
+            }
+        }
+
+        .secondText{
+            display: flex;
+            width: 165px;
+            height: 24px;
+            gap: 2px;
+            .imgContainer{
+                width: 24px;
+                height: 24px;
+                transform: rotate(-0deg);
+            }
+            img{
+                position: relative;
+                width: 7.78px;
+                height: 12.73px;
+                top: 5.64px;
+                left: 8.22px;
+                transform: rotate(-0deg);
+                color: #505050;
+            }
+
+            p{
+                width: 139px;
+                height: 15px;
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 14.63px;
+                color: #787878;
+            }
+        }
+   }
+
+   .rightPortion{
+        display: flex;
+        width: 417px;
+        height: 49px;
+        gap: 24px;
+        .profilePhoto{
+            display: flex;
+            width: 353px;
+            height: 49px;
+            border-radius: 8px 60px 60px 8px;
+            padding: 0px 0px 0px 6px;
+            gap: 24px;
+            background-color: #F1F3F7;
+            box-shadow: inset 3px 4px 2px 0px rgba(0, 0, 0, 0.04);
+            .lenskartIcon{
+                
+                display: flex;
+                width: 135px;
+                height: 38px;
+                border-radius: 6px;
+                padding: 6px 29px 1px 29px;
+                gap: 10px;
+                background-color: #FFFFFF;
+                box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.04);
+                margin-top: 1px;
+                img{
+                   
+                    width: 103px;
+                    height: 18px;
+                }
+            }
+
+            .user{
+                display: flex;
+                width: 188px;
+                height: 50px;
+                gap: 8px;
+                .name{
+                    display: flex;
+                    flex-direction: column;
+                    width: 130px;
+                    height: 34px;
+                    gap: 2px;
+                    .main{
+                        width: 130px;
+                        height: 17px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17.07px;
+                        color: #2F2F2F;
+                    }
+                    .subMain{
+                        width: 66px;
+                        height: 15x;
+                        font-family: Montserrat;
+                        font-weight: 300;
+                        font-size: 12px;
+                        line-height: 14.63px;
+                        color: #2F2F2F;
+                        margin-left: 58px;
+                    }
+                }
+                .photo{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+
+        .notificationIcon{
+            width: 40px;
+            height: 40px;
+            gap: 10px;
+            .rectangle2{
+                width: 40px;
+                height: 40px;
+                border-radius: 8px;
+                background-color: #0F3B760F;
+                .innerRectangle{
+                    width: 24px;
+                    height: 24px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                        margin: 7px
+                    }
+                    .bell{
+                        width: 10px;
+                        height: 10px;
+                        gap: 2px;
+                        position: relative;
+                        top:-43px;
+                        right: -11px;
+                    }
+                }
+            }
+        }
+   }
+
+}
